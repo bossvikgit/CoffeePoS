@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #3e2723; /* Dark coffee brown */
+    color: #f5f5dc; /* Creamy beige text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6d4c41; /* Medium brown */
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: #f5f5dc;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #2e7d32; /* Coffee leaf green */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #f5f5dc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2e7d32;
+    background-color: #f5f5dc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #f5f5dc;
+    border-bottom: 2px solid #8d6e63; /* lighter brown accent */
+    padding-bottom: 5px;
+}
+
+form {
+    margin: 20px auto;
+    background-color: #4e342e; /* deep brown */
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #8d6e63;
+    border-radius: 5px;
+    background-color: #3e2723;
+    color: #f5f5dc;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #2e7d32;
+    border: none;
+}
+
+button:hover {
+    background-color: #1b5e20;
+    color: #f5f5dc;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #4e342e;
+    color: #f5f5dc;
+}
+
+table, th, td {
+    border: 1px solid #8d6e63;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    border: 1px solid #8d6e63;
+    background-color: #3e2723;
+    padding: 3px;
+}
+/* Tab container */
+.tab-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Tab buttons */
+.tab-buttons {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+.tab-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background: #3e2723;
+    color: #f5f5dc;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.tab-buttons button.active {
+    background: #2e7d32; /* green accent */
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Table styling */
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.report-table th, .report-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.report-table th {
+    background: #3e2723;
+    color: #f5f5dc;
+}
